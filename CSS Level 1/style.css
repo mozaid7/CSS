@@ -1,0 +1,102 @@
+/* h3{
+    color: blue;
+}
+p{
+    color: blueviolet;
+}
+button{
+    color: brown;
+    background-color: olivedrab;
+}
+body{
+    background-color: rgb(255, 200, 0);
+} */
+/* asterisk(*) is used to apply the formatting to all the contents of the page. */
+/* *{
+    color: maroon;
+} */
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+/* By creating Ids */
+/* #one {
+    color: blue;
+}
+#two {
+    color: yellow;
+} */
+
+/* By creating classes */
+.Top {
+    color: blueviolet;
+}
+button{
+    color: black;
+}
+
+#box {
+    background-color: blue;
+    color: white;
+}
+
+/* .heading {
+    color: red;
+} */
+button{
+    background-color: green;
+}
+h1{
+    text-align: center;
+    text-decoration: red wavy underline;
+}
+/* p {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+} */ */
+/* #h1{
+    font-weight: normal;
+}
+#h2{
+    font-weight: lighter;
+}
+#h3{
+    font-weight: 250;
+} */
+/* #one{
+    text-align: center;
+    font-family: Arial;
+}
+#two{
+    text-align: center;
+    font-family:Verdana;
+} */
+#a1 {
+    font-size: 30px;
+}
+#a2{
+    font-size: 19px;
+}
+#a3{
+    font-size: 9px;
+}
+#one {
+    line-height: 40px;
+    text-transform: uppercase;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#outer{
+    font-size: 25px;
+}
+#inner {
+    font-size: 10px;
+}

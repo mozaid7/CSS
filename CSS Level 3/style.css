@@ -1,0 +1,60 @@
+/* #box1 {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+} */
+
+/* #box2 {
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%; */
+    /*em is used for comparison with the font size of parent (sometimes the comparison can be b/w the font size of the parent or the same element's font size). 2 times of parents font size. 
+    rem is used for comparing with the font size of the root element.*/
+    /* width: 5rem; */
+    /* font-size: 2em;
+    width: 5em;
+} */
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+
+#box2 {
+    position: relative;
+    top: 10px;
+    left: 25px;
+    z-index: 2;
+}
+#box3 {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+#box4 {
+    position: fixed;
+    top: 0;
+    
+}
+#box5 {
+    position: sticky;
+    top: 250px;
+    left: 20px;
+    z-index: 1;
+}
+
+#box1 {
+    position: static;
+    background-image: url("tree.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+body {
+    background-image: url("nature.avif");
+    background-size: cover;
+}

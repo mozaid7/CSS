@@ -1,0 +1,27 @@
+div {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#box4 {
+    display: none;
+}
+#box2 {
+    visibility: hidden;
+}
+#box5 {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+#box6 {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    background-color: rgba(0, 255, 0, 1);
+}

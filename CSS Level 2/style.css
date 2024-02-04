@@ -1,0 +1,45 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    /* padding-left: 10px; */
+    /* padding from all directions that is top right bottom left */
+    padding: 14px 16px 18px 20px;
+    /* margin-left: 10px; */
+    margin: 25px;
+}
+#alpha {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    /* for circle use border radius as 50% */
+    border-radius: 50%;
+}
+h1 {
+    width: 200px;
+    height: 50px;
+    background-color: pink;
+    /* border-width: 3px;
+    border-style: dashed;
+    border-color: black; */
+    border: 3px dashed black;
+    text-align: center;
+}
+#beta {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+#gamma {
+    background-color: pink;
+    display: inline;
+}
+

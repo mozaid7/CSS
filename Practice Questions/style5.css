@@ -1,0 +1,10 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-image: url("forest.avif");
+    background-size: cover;
+    color: black;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+}
